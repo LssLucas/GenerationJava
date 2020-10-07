@@ -1,0 +1,20 @@
+package polimorfismo;
+
+public class animal implements cachorro, cavalo, preguica {
+	public String nome(){
+		return "catiorro";
+	}
+	public int idade() {
+		return 21; 
+	}
+	public String emitirSom() {
+		return"Iririririririrriri\nsurtstusrutrstusrrus";
+	}
+	public String correr() {
+		return "trotando";
+	}
+	public String subirArvore() {
+		return "Divagar mais sobe!";
+	}
+
+}

@@ -1,0 +1,15 @@
+package exemploInterface;
+
+public class mainForum {
+
+	public static void main(String[] args) {
+		participanteForum participante = new participanteForum();
+		leitor leito1 = participante;
+		System.out.println("Oparticipante esta lendo "+leito1.lendo() );
+		programador prog = participante;
+		String java= "JAVA";
+		prog.pensando(java.toCharArray());
+		System.out.println("E programando "+prog.digitando());
+	}
+
+}

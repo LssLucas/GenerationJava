@@ -1,0 +1,8 @@
+package exemploInterface;
+
+public class participanteForum implements leitor, programador{
+	String pensamento;
+	public String lendo();{
+		return "Forum";
+	}
+}

@@ -1,0 +1,16 @@
+package exemploInterface;
+
+public class mainAnimal {
+
+	public static void main(String[] args) {
+		participanteForum animal = new participanteForum();
+		cachorro dog1 = animal;
+		System.out.println("O doguinho tá latindo "+dog1.latindo() );
+		cavalo horse = animal;
+		String java= "relinchando";
+		horse.relincho(java.toCharArray());
+		System.out.println("E o cavalo "+horse.digitando());
+		
+	}
+
+}

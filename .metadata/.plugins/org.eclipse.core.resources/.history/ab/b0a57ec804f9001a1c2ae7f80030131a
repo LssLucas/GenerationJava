@@ -1,0 +1,6 @@
+package polimorfismo;
+
+public interface preguica {
+	void String subirArvore(char );
+	nomeClasse="preguiça";
+}

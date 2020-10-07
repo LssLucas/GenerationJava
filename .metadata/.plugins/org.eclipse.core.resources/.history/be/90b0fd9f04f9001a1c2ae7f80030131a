@@ -1,0 +1,6 @@
+package polimorfismo;
+
+public interface preguica extends animal{
+	String subirArvore();
+	nomeClasse="preguiça";
+}

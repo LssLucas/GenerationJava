@@ -1,0 +1,49 @@
+package agenda;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+public class exceptions {
+	
+	
+	
+	
+	// demonstra lancamento de uma exececao quando ocorre uma divisao por zero
+	public static int quotient( int numerator, int denominator )
+	throws ArithmeticException
+	{
+	return numerator / denominator; // possible division by zero
+	} // fim do metodo quotient
+	
+	 public static void main( String args[] )
+	 {
+	 Scanner scanner = new Scanner( System.in ); // scanner para entrada
+	 boolean continueLoop = true; // determina se mais entradas sao necesserias
+	
+	 do
+	 {
+	 try // la dois numeros e calcula o quociente
+	{
+	 System.out.print( "Entre com o numerador: " );
+	 int numerator = scanner.nextInt();
+	 System.out.print( "Entre com o denominador: " );
+	 int denominator = scanner.nextInt();
+	
+	
+	int result = quotient( numerator, denominator );
+	System.out.printf( "\nResult: %d / %d = %d\n", numerator,denominator, result );
+	continueLoop = false; // entrada bem-sucedida; fim de loop
+	} // fim de try
+	catch ( InputMismatchException inputMismatchException )
+	{
+	System.err.printf( "\nException: %s\n",
+	inputMismatchException );
+	scanner.nextLine(); // descarta entrada para o usuurio de novo
+	System.out.println("You must enter integers. Please try again.\n" );
+	} // fim de catch
+	catch ( ArithmeticException arithmeticException )
+	{
+	System.err.printf( "\nException: %s\n", arithmeticException );
+	System.out.println("Zero is an invalid denominator. Please try again.\n" );
+	} // fim de catch
+	} while ( continueLoop ); // fim de do...while
+	} // fim de main

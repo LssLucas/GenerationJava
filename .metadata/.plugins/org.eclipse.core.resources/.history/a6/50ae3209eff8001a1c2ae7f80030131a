@@ -1,0 +1,7 @@
+package polimorfismo;
+
+public interface cavalo {
+	String emitirSom();
+	String correr();
+	nomeClasse="cavalo";
+}

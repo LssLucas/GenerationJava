@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\novo_\OneDrive\Documentos\ONG Generations\1º Módulo\Java\Exercicios\.metadata\.plugins\org.eclipse.jdt.core
-2121902280.index
-2103231971.index

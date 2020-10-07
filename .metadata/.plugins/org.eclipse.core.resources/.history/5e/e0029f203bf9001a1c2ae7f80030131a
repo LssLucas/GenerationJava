@@ -1,0 +1,34 @@
+package projetoSexta;
+
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+public class anotacao2 {
+			static String total;
+			static String tot;
+			static String tota;
+			
+
+		    public static void main(String[] args)
+		   {
+		        // TODO Auto-generated method stub
+		      String recebe=  JOptionPane.showInputDialog ("Digite um numero entre 1 e 31:\n");
+		      System.out.println("Dia: " + recebe);
+		        String response =JOptionPane.showInputDialog(null,"");
+		        System.out.println("Response: " + response);
+		        total = recebe;
+		        tot = response;
+		        tota = (total+" "+tot);
+		      Calendar cal = new GregorianCalendar();
+		      System.out.println(cal.getTime());
+		  	  System.out.println(tota);
+		   }
+		 
+}

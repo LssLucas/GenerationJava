@@ -1,0 +1,10 @@
+package polimorfismo;
+
+public interface animals {
+	public String nomeInterface = "animals";
+	abstract public String getNome();
+	abstract public int getIdade();
+	abstract public String getSom();
+	abstract public String getMover();
+	
+}

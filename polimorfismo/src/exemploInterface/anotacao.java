@@ -1,0 +1,8 @@
+package exemploInterface;
+import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+public class anotacao {
+	JOptionPane.showMessageDialog(null, "A basic JOptionPane message dialog");
+	//JOptionPane.showMessageDialog(null,"Janeiro");
+	//JOptionPane.showInputDialog (null,"Digite um numero entre 1 e 12:\n");
+}

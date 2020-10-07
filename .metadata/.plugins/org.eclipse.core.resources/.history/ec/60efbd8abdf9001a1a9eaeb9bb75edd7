@@ -1,0 +1,12 @@
+package agenda;
+
+public class exceptions extends Agenda{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if(d==0 || m==0) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,7 @@
+package exemploInterface;
+
+public interface programador {
+	void pensando (char[] ideias);
+	String digitando();
+
+}

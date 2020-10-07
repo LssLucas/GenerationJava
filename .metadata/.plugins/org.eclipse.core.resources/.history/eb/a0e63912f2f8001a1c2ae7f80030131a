@@ -1,0 +1,12 @@
+package polimorfismo;
+
+public class cavalo extends animal implements animals{
+	animals(nome, idade,som, mover);	
+
+public void setNome() {
+	nomeClasse="cavalo";
+	String peDePano;
+}
+public void setMover() {
+	String trotar;		
+}

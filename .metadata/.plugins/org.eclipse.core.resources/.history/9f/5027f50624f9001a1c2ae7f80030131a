@@ -1,0 +1,5 @@
+package exemploInterface;
+import javax.swing.JOptionPane;
+public class anotacao {
+	JOptionPane.showMessageDialog();
+}

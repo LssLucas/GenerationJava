@@ -1,0 +1,26 @@
+package exemploInterface;
+public class participanteForum implements cachorro, cavalo{
+	String latido;
+	public String latindu(){
+		return "AUAUAUAUA";
+	}//chama
+	public void relinchu(char []ideias) {
+		latido = new String (ideias);
+	}//chama
+	public String latindo() {
+		return latido;
+	}//cria
+	public String aprendendo () {
+		return "JAVA";
+	}//cria
+	@Override
+	public void relincho(char[] ideias) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String relinchando() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,17 @@
+package exemploInterface;
+
+public class participanteForum implements cachorro, cavalo, preguica{
+	String pensamento;
+	public String latindo(){
+		return "AUAUAUAUA";
+	}//chama
+	public void pensando(char []ideias) {
+		pensamento = new String (ideias);
+	}//chama
+	public String digitando () {
+		return pensamento;
+	}//cria
+	public String aprendendo () {
+		return "JAVA";
+	}//cria
+}

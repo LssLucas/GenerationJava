@@ -1,0 +1,17 @@
+package exemploInterface;
+
+public class participanteForum implements cachorro, programador{
+	String pensamento;
+	public String lendo(){
+		return "Forum";
+	}//chama
+	public void pensando(char []ideias) {
+		pensamento = new String (ideias);
+	}//chama
+	public String digitando () {
+		return pensamento;
+	}//cria
+	public String aprendendo () {
+		return "JAVA";
+	}//cria
+}

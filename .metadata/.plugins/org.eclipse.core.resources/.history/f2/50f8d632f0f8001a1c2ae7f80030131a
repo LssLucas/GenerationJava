@@ -1,0 +1,7 @@
+package polimorfismo;
+
+public class cachorro extends animal {
+	String nome();
+	int idade();
+	nomeClasse="cachorro";
+}

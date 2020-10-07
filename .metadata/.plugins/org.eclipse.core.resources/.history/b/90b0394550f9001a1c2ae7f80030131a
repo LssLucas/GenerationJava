@@ -1,0 +1,16 @@
+package projetoSexta;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+public class Example {
+   public static void main(String[] args) {
+	/* We can specify any pattern like "dd/MM/yyy/EEE" etc.
+	 * 
+	 * 
+	 */
+	public String hoje() {
+	SimpleDateFormat sdf = new SimpleDateFormat("dd");
+	String stringDate = sdf.format(new Date());
+	return=stringDate;
+	}
+   }
+}

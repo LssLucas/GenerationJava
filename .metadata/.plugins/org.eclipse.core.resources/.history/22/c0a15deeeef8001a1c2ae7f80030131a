@@ -1,0 +1,7 @@
+package polimorfismo;
+
+public interface cachorro {
+	String nome();
+	int idade();
+	nomeClasse="cachorro";
+}

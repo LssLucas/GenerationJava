@@ -1,0 +1,17 @@
+package polimorfismo;
+
+public class MainPolimorfismo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cavalo poppy = new cavalo ("pedepano", 21, "iriririr", "trote");
+		System.out.println();
+		/*cachorro catiorro = poppy;
+		cavalo peDePano = poppy;
+		System.out.println("O cavalo faz "+peDePano.emitirSom()+" e "+poppy.correr());
+		preguica preguicinha = poppy;
+		System.out.println("E a preguiça sobe como? "+preguicinha.subirArvore());
+*/
+	}
+
+}

@@ -1,0 +1,8 @@
+package exemploInterface;
+
+public interface cavalo {
+	void relincho (char[] ideias);
+	String cavalinho();
+	//2 metodos
+
+}
