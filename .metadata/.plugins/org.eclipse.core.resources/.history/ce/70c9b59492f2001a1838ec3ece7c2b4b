@@ -1,0 +1,16 @@
+package lista_de_exercicios;
+import java.util.Scanner;
+public class exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int v[] = new int[3];
+		int i;
+		for (i=0;i<3;i++) {
+			Scanner leitura = new Scanner (System.in);
+			System.out.print("Digite três numeros.\n"+(i+1)+"º = ");
+			v[i] = leitura.nextInt();
+		}
+	}
+
+}
